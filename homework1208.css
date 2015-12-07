@@ -1,0 +1,73 @@
+.menu a {
+    color: white;
+}
+
+.box1 a,
+.box2 a,
+.box3 a,
+.box4 a {
+    color: #545454;
+}
+
+.menu ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    padding: 20px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 li {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.box1 {
+    max-width: 70px;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    left: 30px;
+    background-color: #DEEAF1;
+}
+
+.box2 {
+    max-width: 70px;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    left: 153px;
+    background-color: #DEEAF1;
+}
+
+.box3 {
+    max-width: 70px;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    left: 300px;
+    background-color: #DEEAF1;
+}
+
+.box4 {
+    max-width: 70px;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    left: 460px;
+    background-color: #DEEAF1;
+}
+
+.menu {
+    padding: 10px;
+    margin: 0px;
+    background-color: #CBD7DE;
+}
