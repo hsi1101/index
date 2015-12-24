@@ -1,0 +1,24 @@
+h1 {
+    color: #479FA2;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: #818181;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
