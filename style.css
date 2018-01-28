@@ -26,7 +26,7 @@ img {
 }
 
 .pic_08 {
-	margin-top: 45px;
+	margin: 45px 0;
 }
 
 .pic:hover {
@@ -35,21 +35,15 @@ img {
 }
 
 
-@media (min-width: 992px) {
-	.container {width: 960px; }
-	.half {width: 50%;}
-
-
-@media (min-width: 1200px) {
-	.container {width: 1115px; }
-}
-}
 
 @media (max-width: 767px){
-	.hidden-mb{display: none;}
-	.container {width: 90%; }
+    .hidden-mb{display: none;}
+    .container {width: 70%; }
+    #bg {background-image: url("images/bg_500px.jpg");}
 }
 
 @media (min-width: 768px) {
-	.hidden-pc {display: none;}
+    .hidden-pc {display: none;}
+    .container {width: 65%; }
+    .half {width: 50%;}
 }
