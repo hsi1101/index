@@ -52,6 +52,11 @@ p.lead {
     margin-bottom: 2rem;
 }
 
+span {
+    font-size: 18px;
+    color: #e38cb7;
+}
+
 img {
     width: 100%;
     min-width: 100%;
