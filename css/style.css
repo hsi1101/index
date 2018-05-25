@@ -211,9 +211,6 @@ img {
     .nav-menu {
         padding: 1rem 0;
     }
-    .navbar-brand {
-        width: 15%;
-    }
 }
 
 
@@ -231,7 +228,7 @@ header {
     background-size: cover;
 }
 
-.splash h1 {
+.splash img {
     margin-top: 200px;
 }
 
@@ -247,7 +244,7 @@ header {
 }
 
 @media (max-width:768px) {
-    .splash h1 {
+    .splash img {
         margin-top: 80px;
     }
     .splash h4 {
@@ -260,13 +257,13 @@ header {
         background: url("../images/home_500px.jpg") no-repeat;
         background-size: cover;
     }
-    .splash h1 {
+    .splash img {
         margin-top: 25px;
     }
 }
 
 @media (max-width:320px) {
-    .splash h1 {
+    .splash img {
         margin-top: 8px;
     }
 }
