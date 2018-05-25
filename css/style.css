@@ -42,6 +42,12 @@ h4 {
     color: #414141;
 }
 
+h5 {
+    font-size: 20px;
+    color: #309add;
+    font-weight: 800;
+}
+
 p {
     font-size: 16px;
     color: #696268;
@@ -55,6 +61,7 @@ p.lead {
 
 span {
     font-size: 18px;
+    font-weight: 800;
     color: #e54595;
 }
 
@@ -87,9 +94,10 @@ img {
     border-radius: 3px;
     background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
-    font-weight: 500;
+    font-weight: 800;
     padding: 0.6rem 2rem;
     border: 0;
+    font-size: 20px;
 }
 
 .btn-primary:hover,
@@ -144,12 +152,6 @@ img {
     margin-bottom: 40px;
 }
 
-.contact-bg p {
-    color: white;
-    font-size: 20px;
-    text-decoration: underline;
-}
-
 .section {
     padding: 60px 0;
 }
@@ -161,6 +163,11 @@ img {
 .row-title {
     text-align: center;
     margin-bottom: 3rem;
+}
+
+.row-btn {
+    text-align: center;
+    margin: 20px 0;
 }
 
 @media (max-width:768px) {
@@ -175,6 +182,10 @@ img {
     }
     .section {
         padding: 20px 0;
+    }
+    .contact-bg h4 {
+        font-size: 20px;
+        line-height: 25px;
     }
 }
 
@@ -308,39 +319,11 @@ header {
 }
 
 
-/*  CALL TO ACTION
-----------------------*/
-
-.call-to-action {
-    text-align: center;
-    color: #FFF;
-    margin: 3rem 0;
-}
-
-.call-to-action .box-icon {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    transform: scale(0.85);
-    margin-bottom: 2.5rem;
-}
-
-.call-to-action h2 {
-    color: #FFF;
-}
-
-.call-to-action .tagline {
-    font-size: 16px;
-    font-weight: 300;
-    color: #FFFF66;
-    max-width: 650px;
-    margin: 0 auto;
-}
-
-.btn-light img {
-    margin-right: 0.4rem;
-    vertical-align: text-bottom;
-}
-
-
 /*----------------------*/
+
+.the-price p {
+    color: #414141;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 800;
+}
